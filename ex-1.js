@@ -1,7 +1,8 @@
 //Exercise 1: Add Strings
 
 const addStrings = function (num1, num2) {
-  //Start coding here
+  // สิ่งต้องทำ คือเอาparameter มาแปลงเป็นตัวเลข แล้ว =>เป็นผลบวก
+  return Number(num1) + Number(num2);
 };
 
 const result1 = addStrings("11", "123");
